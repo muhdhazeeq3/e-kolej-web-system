@@ -1,0 +1,88 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>E-KOLEJ</title>
+  <script src="script.js"></script>
+	<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+	
+<div class="wrapper">
+        <div class="top_nav">
+
+        <div class="left">
+          <div class="logo">
+            <img src="logo_UKM.png" height="100px" width="150px">
+            <img src="logo_kiz.jpg" height="90px" width="200px" style="margin:10px 5px" >
+            <a>E-KOLEJ</a>
+          </div>
+      </div> 
+
+      <!-- <div class="right">
+        <div class="search_bar">
+              <input type="text" placeholder="Search">
+          </div>
+      </div> -->
+
+        <div class="right">
+          <ul><li><a href="#" disabled="disabled"><span class="glyphicon glyphicon-user" aria-hidden="true"></span>USER : (<?php echo $pos; ?>)</a></li>
+            <li>
+              <body onload="startTime()">
+              <div id="txt"></div>
+              </body>              
+            </li>
+          </ul>
+        </div>
+
+    </div>
+    <div class="bottom_nav">
+      <ul>
+        <li><a href="#">HOME</a></li>
+        <div class="dropdown">
+          <button class="dropbtn">ROOM <i class="fa fa-caret-down"></i></button>
+          <div class="dropdown-content">
+            <a href="#">BOOK ROOM</a>
+            <a href="#">CHECK BOOKING STATUS</a>
+          </div>
+        </div>
+        <div class="dropdown">
+          <button class="dropbtn">GUEST ROOM <i class="fa fa-caret-down"></i></button>
+          <div class="dropdown-content">
+            <a href="#">BOOK GUEST ROOM</a>
+            <a href="#">CHECK BOOKING STATUS</a>
+          </div>
+        </div>
+        <div class="dropdown">
+          <button class="dropbtn">COMPLAINT <i class="fa fa-caret-down"></i></button>
+          <div class="dropdown-content">
+            <a href="#">SUBMIT COMPLAINT</a>
+            <a href="#">CHECK COMPLAINT STATUS</a>
+          </div>
+        </div>
+        <li><a href="#">ANNOUNCEMENT</a></li>
+      </ul>
+  </div>
+
+  <table width="0%" height="400" border="0">
+    
+    <td bgcolor="#cccccc" width="300" height="350">
+      <object name="menu" type="text/html" data="menu.html" height="360" />
+    </td>
+    <td width="*" valign="top">
+      <div class="banner">
+      <img src="kizll.jpg" alt="kiz_img">
+      </div>
+      <!-- put contents here -->
+    </td>
+
+    
+  
+</table>
+  
+  
+</div>
+
+</body>
+</html>
